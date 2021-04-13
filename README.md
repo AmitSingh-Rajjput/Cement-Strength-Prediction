@@ -23,7 +23,7 @@ The concrete compressive strength is the regression problem.
 
 4: Water (component 4) quantitative ,kg in a m3 mixture . Input Variable 
 
-5: Superplasticizer (component 5) ,quantitative ,kg in a m3 mixture . Input Variable--Superplasticizers (SP's), also known as high range water reducers, are additives used in making high strength concrete. Their addition to concrete or mortar allows the reduction of the water to cement ratio without negatively affecting the workability of the mixture, and enables the production of self-consolidating concrete and high performance concrete 
+5: Superplasticizer (component 5) ,quantitative ,kg in a m3 mixture . Input Variable--Superplasticizers (SP's), also known as high range water reducers, are additives used in making high strength concrete. 
 
 6: Coarse Aggregate (component 6) ,quantitative kg in a m3 mixture . Input Variable-- construction aggregate, or simply "aggregate", is a broad category of coarse to medium grained particulate material used in construction, including sand, gravel, crushed stone, slag, recycled concrete and geosynthetic aggregates 
 
@@ -83,11 +83,11 @@ In this step, we perform different sets of validation on the given set of traini
 
    c) Scale the training and test data separately  
 
-3) Clustering - KMeans algorithm is used to create clusters in the preprocessed data. The optimum number of clusters is selected by plotting the elbow plot, and for the dynamic selection of the number of clusters, we are using "KneeLocator" function. The idea behind clustering is to implement different algorithms 
+3) Clustering - KMeans algorithm is used to create clusters in the preprocessed data. The optimum number of clusters is selected by plotting the elbow plot, and for the dynamic selection of the number of clusters, we are using "KneeLocator" function. 
 
    To train data in different clusters. The Kmeans model is trained over preprocessed data and the model is saved for further use in prediction. 
 
-4) Model Selection - After clusters are created, we find the best model for each cluster. We are using two algorithms, "Random forest Regressor" and “Linear Regression”. For each cluster, both the algorithms are passed with the best parameters derived from GridSearch. We calculate the Rsquared scores for both models and select the model with the best score. Similarly, the model is selected for each cluster. All the models for every cluster are saved for use in prediction.  
+4) Model Selection - After clusters are created, we find the best model for each cluster. We are using two algorithms, "Random forest Regressor" and “Linear Regression”. For each cluster, both the algorithms are passed with the best parameters derived from GridSearch. We calculate the Rsquared scores for both models and select the model with the best score. Similarly, the model is selected for each cluster. 
 
 ## Prediction
 
@@ -123,7 +123,8 @@ We will be deploying the model to the Heroku Cloud platform.
 
 After compilation you can see this type of interface. Where you can give Custom files path for prediction or Default File prediction.
 
-![image]()
+![ML2](https://user-images.githubusercontent.com/66250589/114582964-baf02c00-9c9e-11eb-94b0-366c3c54bc3b.PNG)
+
 
 
 
