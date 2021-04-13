@@ -70,3 +70,15 @@
 2021-04-11/19:52:13		Entered the load_model method of the File_Operation class
 2021-04-11/19:52:13		Model File RandomForestRegressor2 loaded. Exited the load_model method of the Model_Finder class
 2021-04-11/19:52:13		End of Prediction
+2021-04-13/20:39:03		Start of Prediction
+2021-04-13/20:39:03		Entered the get_data method of the Data_Getter class
+2021-04-13/20:39:03		Data Load Successful.Exited the get_data method of the Data_Getter class
+2021-04-13/20:39:03		Entered the is_null_present method of the Preprocessor class
+2021-04-13/20:39:03		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-04-13/20:39:03		Entered the load_model method of the File_Operation class
+2021-04-13/20:39:03		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2021-04-13/20:39:03		Entered the find_correct_model_file method of the File_Operation class
+2021-04-13/20:39:03		Exited the find_correct_model_file method of the Model_Finder class.
+2021-04-13/20:39:03		Entered the load_model method of the File_Operation class
+2021-04-13/20:39:03		Model File RandomForestRegressor2 loaded. Exited the load_model method of the Model_Finder class
+2021-04-13/20:39:03		End of Prediction
